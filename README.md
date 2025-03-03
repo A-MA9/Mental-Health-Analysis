@@ -45,8 +45,8 @@ This project uses the **Student Mental Health Assessment** dataset from [NidhiU-
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-repo/depression-prediction.git](https://github.com/A-MA9/Mental-Health-Analysis.git)
-   cd depression-prediction
+   git clone https://github.com/A-MA9/Mental-Health-Analysis.git
+   cd Mental-Health-Analysis
    ```
 2. Install dependencies:
    ```bash
