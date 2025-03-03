@@ -49,7 +49,7 @@ for col in selected_features:
 input_df = pd.DataFrame([user_data])
 input_df[selected_features] = scaler.transform(input_df[selected_features])
 
-if st.button("Predict Depression Score"):
+if st.button("Analyze Mental Health"):
     prediction = model.predict(input_df)[0]
     if prediction < 2:
         st.success("The student is in a healthy mental state.")
