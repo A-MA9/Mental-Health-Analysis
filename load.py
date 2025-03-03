@@ -12,7 +12,7 @@ s3.download_file(bucket_name, pickle_file_key, local_pickle_path)
 with open(local_pickle_path, "rb") as f:
     model_data = pickle.load(f)
 
-model = model_data["random_forest"]
+model = model_data["xgboost"]
 scaler = model_data["scaler"]
 encoder = model_data["encoder"]
 selected_features = model_data["selected_features"]
